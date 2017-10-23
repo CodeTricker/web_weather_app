@@ -1,0 +1,132 @@
+
+
+@font-face {
+  font-family: 'CFAstyStd-Book';
+  src: url('CFAstyStd-Book.eot?#iefix') format('embedded-opentype'),  url('CFAstyStd-Book.otf')  format('opentype'),
+	     url('CFAstyStd-Book.woff') format('woff'), url('CFAstyStd-Book.ttf')  format('truetype'), url('CFAstyStd-Book.svg#CFAstyStd-Book') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body, #wrapper 
+{
+  height: 100%;
+}
+
+#wrapper 
+{
+  display: flex;
+  flex-direction: column;
+}
+
+
+#wrapper 
+{
+
+	float:left;
+	display: inline-block;
+	width: 20%;
+	padding-left: 10px;
+	
+}
+
+
+
+
+.hide
+{
+	display: none;
+}
+
+.dis
+{
+	display: block;
+}
+
+.main-item 
+{
+
+	width:20px;
+	height:20px;
+	position:relative;
+	cursor:pointer;
+}
+
+.line 
+{
+
+	position: absolute;
+	height: 2px;
+	width: 100%;
+	background:#9932CC;
+	border-radius:10px;
+	transition: all cubic-bezier(0.25, 0.1, 0.28, 1.54) 0.32s;
+
+}
+
+.up
+{
+	color: white;
+	font-size: x-large;
+	position: relative;
+	top: 10%;
+	
+}
+
+.middle_line
+{
+	background: #48D1CC;
+	position: fixed;
+	top: 50%;
+	height: 5px;
+	width: 2%;
+	border-radius:10px;
+	transition: all cubic-bezier(0.25, 0.1, 0.28, 1.54) 0.32s;
+}
+
+.down
+{
+	color: #48D1CC;
+	font-size: x-large;
+	position: fixed;
+	top: 50%;
+}
+
+.line01 
+{
+	top:19%;
+}
+
+.line02 
+{
+	top:49%;
+}
+
+.line03 
+{
+	top:79%;
+}
+
+#wrapper.close
+{
+	background: #9932CC;
+}
+
+.menu.close .line01 
+{
+	background: #48D1CC;
+	transform:rotate(45deg);
+	top:49%;
+}
+
+.menu.close .line02, .menu.close .line03 
+{
+	background: #48D1CC;
+	transform:rotate(-45deg);
+	top:49%;
+}
+
+#refresh
+{
+	cursor: pointer;
+}

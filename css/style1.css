@@ -1,0 +1,79 @@
+body
+{
+	background: #48D1CC;
+	
+}
+
+@font-face
+{
+  font-family: 'CFAstyStd-Bold';
+  src: url('CFAstyStd-Bold.eot?#iefix') format('embedded-opentype'),  url('CFAstyStd-Bold.otf')  format('opentype'),
+	     url('CFAstyStd-Bold.woff') format('woff'), url('CFAstyStd-Bold.ttf')  format('truetype'), url('CFAstyStd-Bold.svg#CFAstyStd-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+#photo
+{
+	/*text-align: center;*/
+	position: fixed;
+	left: 50%;
+}
+/*
+img
+{
+	width: 50px;
+	height: 50px;
+}
+*/
+
+.logo
+{
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+
+.new-shape
+{
+	fill: #9932CC;
+}
+
+#search
+{
+	position: fixed;
+	top: 50%;
+	left: 40%;
+}
+
+
+input
+{
+	width: 300px;
+	height: 40px;
+	padding-left: 5%;
+	border-radius: 7%;
+	border:2px solid #48D1CC;
+}
+
+#arrow
+{
+	
+	width: 10px;
+	height: 10px;
+	border-top: 5px solid #9932CC;
+	border-right: 5px solid #9932CC;
+	transform: rotate(45deg);
+	border-radius: 10%;
+	cursor: pointer;
+}
+
+#search #arrow
+{
+	position: absolute;
+	top: 40%;
+	left: 90%;
+}
+
+

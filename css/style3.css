@@ -1,0 +1,111 @@
+
+
+@font-face 
+{
+  font-family: 'CFAstyStd-Medium';
+  src: url('CFAstyStd-Medium.eot?#iefix') format('embedded-opentype'),  url('CFAstyStd-Medium.otf')  format('opentype'),
+	     url('CFAstyStd-Medium.woff') format('woff'), url('CFAstyStd-Medium.ttf')  format('truetype'), url('CFAstyStd-Medium.svg#CFAstyStd-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+.quest
+{
+	display: block;
+}
+
+.answer
+{
+	display: none;
+}
+
+#today_date
+{
+	color: white;
+	float: right;
+	padding-right: 3%;
+	padding-top: 10%;
+	font-weight: bold;
+}
+
+.day
+{
+	font-size: x-large;
+}
+
+#today_weather
+{
+	color: white;
+	float: right;
+	padding-right: 20%;
+	padding-top: 10%;
+	font-weight: bold;
+}
+
+.temperature
+{
+	
+	font-size: xx-large;
+	display: none;
+}
+
+.temprature_dis
+{
+	display: block;
+}
+
+.location
+{
+	
+	font-size: x-large;
+}
+ 
+#bar
+{
+	
+	text-align: center;
+	color: white;
+	width: 100%;
+	height: 100%;
+	font-size: large;
+	font-weight: bold;
+	
+	position: fixed;
+	top: 70%;
+	
+} 
+
+
+.wetherDay2
+{
+	position: fixed;
+	top: 70%;
+	padding-left: 27%;
+	
+}
+
+.wetherDay3
+{
+	position: fixed;
+	top: 70%;
+	padding-left: 47%;
+	
+}
+
+.wetherDay4
+{
+	position: fixed;
+	top: 70%;
+	padding-left: 67%;
+	
+}
+
+.wetherDay5
+{
+	position: fixed;
+	top: 70%;
+	padding-left: 87%;
+	
+}
